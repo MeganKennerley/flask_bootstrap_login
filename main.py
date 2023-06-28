@@ -12,7 +12,7 @@ class LoginForm(FlaskForm):
 
 
 app = Flask(__name__)
-app.secret_key = "secrets"
+app.secret_key = "a secrey key"
 bootstrap = Bootstrap5(app)
 
 
